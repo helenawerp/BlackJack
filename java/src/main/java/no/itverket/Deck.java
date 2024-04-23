@@ -5,7 +5,6 @@ import java.util.*;
 class Deck {
     Queue<Card> cards = new ArrayDeque<>();
 
-    // Creates a new Deck & for each suit placing in a card with each value 1-13
     Deck() {
         for (Suit suit : Suit.values()) {
             for (int i = 1; i < 14; i++) {

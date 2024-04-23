@@ -3,8 +3,6 @@ package no.itverket;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.Thread.sleep;
-
 public class Person {
 
   String name;
